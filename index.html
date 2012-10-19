@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8" />
+	<script type="text/javascript" src="http://wange.im/demo/automated-slide/slide.js"></script>
+	<script type="text/javascript">
+		window.onload = function() {
+			slide.init({
+				width: 500,				// 非必须，默认值自适应
+				height: 250,			// 非必须，默认值自适应
+				auto: true,				// 非必须，默认值 false
+				interval: 2000,			// 非必须，默认值 3000，当 auto 为 true 时有效
+				targetId: 'slide',		// 必须
+				data: [					// 必须
+					{
+						src: 'http://wange.im/wp-content/themes/wange_v1/images/slides/1.jpg',
+						title: '图片一',
+						url: 'http://wange.im/'
+					},
+					{
+						src: 'http://wange.im/wp-content/themes/wange_v1/images/slides/2.jpg',
+						title: '图片二',
+						url: 'http://t.qq.com/wange1228'
+					},
+					{
+						src: 'http://wange.im/wp-content/themes/wange_v1/images/slides/3.jpg',
+						title: '图片三',
+						url: 'http://facebook.com/wange1228'
+					},
+					{
+						src: 'http://wange.im/wp-content/themes/wange_v1/images/slides/4.jpg',
+						title: '图片四',
+						url: 'http://twitter.com/wange1228'
+					}
+				]
+			});
+		}
+	</script>
+	<title>自动化焦点图</title>
+</head>
+<body>
+	<h1>自动化焦点图</h1>
+	<p>亲！知道啥叫自动化不？知道啥叫焦点图不？知道啥叫自动化焦点图不？</p>
+	<p><strong style="color:#f00;">自动化焦点图</strong>，就是只需要你引入<strong>一个脚本文件</strong>，配上你需要的<strong>个性化参数</strong>，然后放<strong>一个 html 标签</strong>。</p>
+	<p>接下来，就是见证奇迹的时刻！</p>
+	
+	<!-- S 焦点图 -->
+	<div id="slide">
+	<!-- 如果这里再放一朵菊花，那就完美了^_^ -->
+	</div>
+	<!-- E 焦点图 -->
+
+	返回 <a href="http://wange.im/javascript-automated-slide.html" title="原生 Javascript 版自动化焦点图">原生 Javascript 版自动化焦点图</a>
+</body>
+</html>
